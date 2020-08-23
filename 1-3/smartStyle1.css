@@ -1,5 +1,9 @@
 /*ウィンドウ幅が767pxまでの場合に適用*/
 @media screen and (max-width: 767px) {
+    #wrapper{
+        max-width: 250px;
+        margin: 0 auto;
+    }
     .header {
         width: 250px;
     }
@@ -8,9 +12,6 @@
         width: 100px;
     }
 
-    .left {
-    
-    }
     .footer {
         width: 250px;
     }
@@ -20,13 +21,18 @@
 @media screen and  (max-width: 479px) {
     .header {
         width: 150px;
+        float: none;
     }
     .right {
         width: 150px;
         float: none;
     }
+    .left {
+        float: none;
+    }
     .footer {
         width: 150px;
+        float: none;
     }
    
 }
