@@ -1,0 +1,44 @@
+@media screen and (max-width: 479px) {
+    .wrapper {
+        width: 150px;
+        margin: 0 auto;
+    }
+
+    .header,
+    .side,
+    .content,
+    .content-top-left,
+    .content-top-left-top,
+    .content-top-left-bottom,
+    .content-top-right,
+    .content-bottom,
+    .footer {
+     width: 100%;
+    }
+  
+    .content-top.clearfix {
+     display: flex;
+     flex-flow: row wrap;
+    }
+  
+    .content {
+     float: none;
+     width: 100%;
+     overflow: hidden;
+     height: auto;
+    }
+  
+    .content-top-left {
+     float: none;
+     width: 100%;
+     order: 1;
+    }
+  
+    .content-top-left-top {
+     float: none;
+    }
+  
+    .content-top-right {
+     order: 0;
+    }
+   }
