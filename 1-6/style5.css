@@ -3,57 +3,60 @@ body {
 }
 
 .wrapper {
-    width: 400px;
+    width: 550px;
     margin: 0 auto;
 }
 
 .header {
     height: 100px;
-    background-color: #141f40;
+    background-color: #ffff00;
 }
 
-.side {
-    float: left;
-    width: 150px;
-    height: 250px;
-    background-color: #80bfa8;
-}
+
 .content {
-    float: right;
-    width: 250px;
-    height: 250px;
+    width: 550px;
+    height: 300px;
 }
 
 .content-top-left {
     float: left;
-    width: 150px;
+    width: 200px;
+    height: 150px;
+    background-color: #33ffff;
 }
 
-.content-top-left-top {
-    height: 50px;
-    background-color: #dbd400;
-}
-
-.content-top-left-bottom {
-    height: 100px;
-    background-color: #0093b7;
+.content-top-middle {
+    float: left;
+    height: 150px;
+    width: 175px;
+    background-color: #ff0000;
 }
 
 .content-top-right {
-    float: right;
-    width: 100px;
+    float: left;
     height: 150px;
-    background-color: #ff9e6b;
+    width: 175px;
+    background-color: #0000ff;
 }
 
-.content-bottom {
-    height: 100px;
-    background-color: #8c2727;
+
+.content-bottom-right {
+    float: left;
+    height: 150px;
+    width: 450px;
+    background-color: #00ff00;
+}
+
+.content-bottom-left {
+    float: right;
+    height: 150px;
+    width: 100px;
+    background-color: #ff00ff;
 }
 
 .footer {
-    height: 100px;
-    background-color: #d98d30;
+    height: 150px;
+    background-color: #33ffff;
 }
 
 .clearfix:after {
